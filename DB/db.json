@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "1",
+    "name": "Apple iPhone 13",
+    "description": "A smartphone produced by Apple Inc., equipped with A15 chip, supporting 5G network.",
+    "price": 5999,
+    "image": "../images/iphone13.jpg",
+    "quantity": 50
+  },
+  {
+    "_id": "2",
+    "name": "Huawei Mate 40",
+    "description": "A smartphone produced by Huawei, equipped with Kirin 9000 chip, supporting 5G network.",
+    "price": 4999,
+    "image": "../images/mate40.jpg",
+    "quantity": 30
+  },
+  {
+    "_id": "3",
+    "name": "Samsung Galaxy S21",
+    "description": "A smartphone produced by Samsung, equipped with Exynos 2100 chip, supporting 5G network.",
+    "price": 5699,
+    "image": "../images/galaxys21.jpg",
+    "quantity": 40
+  },
+  {
+    "_id": "4",
+    "name": "Xiaomi 11",
+    "description": "A smartphone produced by Xiaomi, equipped with Qualcomm Snapdragon 888 chip, supporting 5G network.",
+    "price": 3999,
+    "image": "../images/mi11.jpg",
+    "quantity": 60
+  },
+  {
+    "_id": "5",
+    "name": "OPPO Find X3",
+    "description": "A smartphone produced by OPPO, equipped with Qualcomm Snapdragon 888 chip, supporting 5G network.",
+    "price": 4499,
+    "image": "../images/findx3.jpg",
+    "quantity": 45
+  },
+  {
+    "_id": "6",
+    "name": "Vivo X60 Pro",
+    "description": "A smartphone produced by Vivo, equipped with Samsung Exynos 1080 chip, supporting 5G network.",
+    "price": 3899,
+    "image": "../images/x60pro.jpg",
+    "quantity": 55
+  },
+  {
+    "_id": "7",
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "description": "A laptop produced by Lenovo, thin and lightweight, suitable for business people.",
+    "price": 9999,
+    "image": "../images/thinkpadx1.jpg",
+    "quantity": 25
+  },
+  {
+    "_id": "8",
+    "name": "Dell XPS 13",
+    "description": "A laptop produced by Dell, thin design, high performance.",
+    "price": 8999,
+    "image": "../images/dellxps13.jpg",
+    "quantity": 20
+  },
+  {
+    "_id": "9",
+    "name": "Apple MacBook Pro",
+    "description": "A laptop produced by Apple, equipped with M1 chip, excellent performance.",
+    "price": 12999,
+    "image": "../images/macbookpro.jpg",
+    "quantity": 15
+  },
+  {
+    "_id": "10",
+    "name": "Huawei MateBook 14",
+    "description": "A laptop produced by Huawei, thin and lightweight, high cost performance.",
+    "price": 6999,
+    "image": "../images/matbook14.jpg",
+    "quantity": 35
+  },
+  {
+    "_id": "11",
+    "name": "Sony WH-1000XM4",
+    "description": "Wireless noise-cancelling headphones produced by Sony, excellent sound quality, good noise reduction.",
+    "price": 2499,
+    "image": "../images/sonywh1000xm4.jpg",
+    "quantity": 50
+  },
+  {
+    "_id": "12",
+    "name": "JBL Flip 5",
+    "description": "Portable Bluetooth speaker produced by JBL, excellent sound quality, long battery life.",
+    "price": 999,
+    "image": "../images/jblflip5.jpg",
+    "quantity": 100
+  }
+]
