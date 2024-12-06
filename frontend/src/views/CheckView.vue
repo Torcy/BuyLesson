@@ -1,12 +1,12 @@
 <template>
   <div class="checkout-view">
-    <BLSum />
+    <BLSum :cart="cart" @remove-from-cart="removeFromCart" />
   </div>
 </template>
 
 <script>
-import BLSum from '@/components/BLSum.vue';
 import { inject } from 'vue';
+import BLSum from '@/components/BLSum.vue';
 
 export default {
   components: {
@@ -25,4 +25,3 @@ export default {
   },
 };
 </script>
-

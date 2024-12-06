@@ -13,19 +13,13 @@ export default {
     BLGoodslist,
   },
   setup() {
-    const cart = inject('cart');
     const allProducts = inject('allProducts');
     const addToCart = inject('addToCart');
 
     return {
-      cart,
       allProducts,
       addToCart,
     };
   },
 };
 </script>
-
-<style scoped>
-/* 商品列表页面的样式 */
-</style>

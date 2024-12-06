@@ -45,11 +45,33 @@ connectDB().then(() => {
   app.get('/print-products', async (req, res) => {
     try {
       const product = await db.collection('product').find({}).toArray();
-      console.log();
-      res.send(product);
+      console.log(product);
+      res.json(product);
     } catch (err) {
       console.error('Error printing products:', err);
       res.status(500).send('Error printing products');
+    }
+  });
+
+  
+  app.post('/order', async (req, res) => {
+    try {
+  
+      const orderData = req.body;
+
+      
+      if (!orderData) {
+        return res.status(400).send('Order data is required');
+      }
+
+      
+      const result = await db.collection('order').insertOne(orderData);
+
+      
+      res.status(201).json({ insertedId: result.insertedId });
+    } catch (err) {
+      console.error('Error submitting order:', err);
+      res.status(500).send('Error submitting order');
     }
   });
 

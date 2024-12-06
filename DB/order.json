@@ -1,0 +1,20 @@
+{
+    "_id": "63a8c7b0f31b584a90d00001",
+    "userName": "John Doe",
+    "userAddress": "123 Main St, Anytown, USA",
+    "userContact": "+11234567890",
+    "orderDetails": [
+      {
+        "name": "Product 1",
+        "price": 99.99,
+        "quantity": 2
+      },
+      {
+        "name": "Product 2",
+        "price": 199.99,
+        "quantity": 1
+      }
+    ],
+    "status": "Submitted",
+    "createdAt": "2024-06-19T08:00:00Z"
+  }

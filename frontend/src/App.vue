@@ -13,10 +13,9 @@ import { ref, provide } from 'vue';
 import { fetchProducts } from '@/modules/api';
 
 export default {
-  name: 'App',
   setup() {
-    const cart = ref([]); // 使用ref创建响应式数组
-    const allProducts = ref([]); // 存储所有商品的响应式数组
+    const cart = ref([]); 
+    const allProducts = ref([]); 
 
     fetchProducts().then(products => {
       allProducts.value = products;
@@ -25,7 +24,7 @@ export default {
     });
 
     function addToCart(product) {
-      const existingProductIndex = cart.value.findIndex(cartItem => cartItem.id === product.id);
+      const existingProductIndex = cart.value.findIndex(cartItem => cartItem._id === product._id);
       if (existingProductIndex > -1) {
         cart.value[existingProductIndex].quantity += 1;
       } else {
@@ -41,7 +40,6 @@ export default {
       cart.value = [];
     }
 
-    // 提供响应式数据和方法
     provide('cart', cart);
     provide('addToCart', addToCart);
     provide('removeFromCart', removeFromCart);
@@ -51,7 +49,4 @@ export default {
     return {};
   },
 };
-</script>
-
-<script>
 </script>
