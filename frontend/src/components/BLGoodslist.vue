@@ -13,6 +13,7 @@
           <h3>{{ product.name }}</h3>
           <p>{{ product.description }}</p>
           <p class="product-price">￥{{ product.price }}</p>
+          <p class="product-quantity">Surplus quantity: {{ product.quantity }}</p>
           <button @click="addToCart(product)">Add to Cart</button>
         </div>
       </li>
@@ -76,3 +77,15 @@ export default {
   },
 };
 </script>
+
+<style>
+.product-image {
+  width: 200px; 
+  height: auto; 
+  object-fit: cover; 
+}
+.product-quantity {
+  color: #666;
+  font-size: 14px;
+}
+</style>
